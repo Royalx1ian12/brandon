@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+
+@font-face {
+  font-family: "Noto Sans JP Black";
+  src: url(./assets/fonts/Noto_Sans_JP/NotoSansJP-Black.otf);
+}
+
+@font-face {
+  font-family: "Noto Sans JP Bold";
+  src: url(./assets/fonts/Noto_Sans_JP/NotoSansJP-Bold.otf);
+}
+@font-face {
+  font-family: "Noto Sans JP Light";
+  src: url(./assets/fonts/Noto_Sans_JP/NotoSansJP-Light.otf);
+}
+@font-face {
+  font-family: "Noto Sans JP Medium";
+  src: url(./assets/fonts/Noto_Sans_JP/NotoSansJP-Medium.otf);
+}
+
+@font-face {
+  font-family: "Noto Sans JP Regular";
+  src: url(./assets/fonts/Noto_Sans_JP/NotoSansJP-Regular.otf);
+}
+
+@font-face {
+  font-family: "Noto Sans JP Thin";
+  src: url(./assets/fonts/Noto_Sans_JP/NotoSansJP-Thin.otf);
+}
+
+.min-h-400 {
+  min-height: 400px;
+}
+
+.h-70-percent {
+  height: 70%;
+}
+
+@media (min-width: 1024px) {
+  .h-90-desktop {
+    height: 90%;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .h-90-screen {
+    height: 90vh;
+  }
+}
+
+.brightness-200	{
+  filter: brightness(2);
+}
